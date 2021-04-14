@@ -98,10 +98,10 @@ WSGI_APPLICATION = 'core.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'follow',
+        'NAME': 'vira-test',
         'USER': 'root',
-        'PASSWORD': '',
-        'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
+        'PASSWORD': 'root',
+        'HOST': '172.16.3.87',   # Or an IP Address that your DB is hosted on
         'PORT': '3306',
     }
 }
