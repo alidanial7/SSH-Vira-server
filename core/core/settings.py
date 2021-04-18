@@ -100,8 +100,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'vira',
         'USER': 'root',
-        'PASSWORD': 'root',
-        'HOST': '172.16.3.87',   # Or an IP Address that your DB is hosted on
+        # 'PASSWORD': 'root',
+        # 'HOST': '172.16.3.87',   # Or an IP Address that your DB is hosted on
+        'HOST': '127.0.0.1',   # Or an IP Address that your DB is hosted on
         'PORT': '3306',
     }
 }

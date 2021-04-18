@@ -50,3 +50,9 @@ class CustomUser(AbstractUser):
 
     def __str__(self):
         return self.username
+
+    class Meta:
+        permissions = (
+            ("add_report_in_kitchen", "Can add report in kitchen"),
+            ("manage_report_in_kitchen", "Can manage report in kitchen"),
+        )
