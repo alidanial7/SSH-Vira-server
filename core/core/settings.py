@@ -98,7 +98,7 @@ WSGI_APPLICATION = 'core.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'vira-test',
+        'NAME': 'vira',
         'USER': 'root',
         'PASSWORD': 'root',
         'HOST': '172.16.3.87',   # Or an IP Address that your DB is hosted on
