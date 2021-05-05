@@ -39,12 +39,12 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'rest_framework.authtoken',
-    'rest_auth',
+    # 'rest_auth',
     'django.contrib.sites',
-    'allauth',
-    'allauth.account',
-    'allauth.socialaccount',
-    'rest_auth.registration',
+    # 'allauth',
+    # 'allauth.account',
+    # 'allauth.socialaccount',
+    # 'rest_auth.registration',
     'corsheaders',
     'users',
     'base',
@@ -168,3 +168,5 @@ REST_AUTH_SERIALIZERS = {
 SITE_ID = 1
 
 CORS_ALLOW_ALL_ORIGINS = True
+
+REST_USE_JWT = True
